@@ -1,6 +1,0 @@
-[phases.setup]
-nixPkgs = ["chromedriver", "google-chrome"]
-aptPkgs = ["libglib2.0-0", "libnss3", "libgconf-2-4", "libfontconfig1"]
-
-[start]
-cmd = "python main.py"
